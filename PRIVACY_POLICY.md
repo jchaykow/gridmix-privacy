@@ -1,21 +1,34 @@
 # Privacy Policy for Grid Mix AI
 
-**Last updated: September 3, 2025**
+**Last updated: February 4, 2026**
 
 ## Overview
 
-Grid Mix AI ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application.
+Grid Mix AI ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our services, including our iOS mobile application ("App") and our Model Context Protocol (MCP) server ("MCP Server"). Together, these are referred to as our "Services."
 
 ## Information We Collect
 
-### Location Information
+### Information Collected via the iOS App
+
+#### Location Information
 - **Precise Location Data**: We collect your device's GPS coordinates to determine your local electricity grid's balancing authority and provide accurate carbon emissions data for your area.
 - **Purpose**: Location data is used solely to identify which electrical grid you're connected to and display relevant emissions information.
 - **Storage**: Location data is processed locally on your device and is not permanently stored or transmitted to our servers.
 
-### Usage Data
+#### Usage Data
 - **API Requests**: We may collect anonymized data about API requests to improve service reliability and performance.
 - **Crash Reports**: Anonymous crash reports may be collected to improve app stability.
+
+### Information Collected via the MCP Server
+
+#### Query Data
+- **Grid Location Queries**: When you or an application queries the MCP Server, we may receive location identifiers (such as balancing authority codes or region names) to return relevant emissions data.
+- **Request Metadata**: We may collect anonymized request metadata (timestamps, request types) for service monitoring and improvement.
+- **No Personal Data Required**: The MCP Server does not require or collect personally identifiable information to function.
+
+#### Server Logs
+- **Access Logs**: Standard server logs may be retained for security and debugging purposes, including IP addresses and request patterns.
+- **Retention**: Server logs are retained for up to 30 days and then automatically deleted.
 
 ## How We Use Your Information
 
@@ -34,26 +47,29 @@ We do not sell, trade, or otherwise transfer your personal information to third 
 ## Data Security
 
 We implement appropriate technical and organizational measures to protect your information:
-- Location data is processed locally on your device
-- API communications use secure HTTPS encryption
+- Location data is processed locally on your device (iOS App)
+- All API and MCP Server communications use secure HTTPS/TLS encryption
 - We follow industry-standard security practices
+- MCP Server connections are secured using standard protocol security measures
 
 ## Your Rights and Choices
 
 You have the right to:
-- **Location Access**: You can revoke location permissions at any time through your device settings
-- **Data Deletion**: You can delete the app to remove all locally stored data
-- **Opt-out**: You can stop using the app at any time
+- **Location Access**: You can revoke location permissions at any time through your device settings (iOS App)
+- **Data Deletion**: You can delete the App to remove all locally stored data, or stop using the MCP Server at any time
+- **Opt-out**: You can stop using our Services at any time
+- **API Key Revocation**: If using authenticated MCP Server access, you can revoke your API credentials at any time
 
 ## Third-Party Services
 
-Our app may use third-party services:
-- **Apple CloudKit**: For app configuration (subject to Apple's Privacy Policy)
+Our Services may use third-party services:
+- **Apple CloudKit**: For App configuration (subject to Apple's Privacy Policy)
 - **AWS API Gateway**: For emissions data (anonymized requests only)
+- **Cloud Infrastructure**: The MCP Server is hosted on cloud infrastructure providers who may process connection metadata in accordance with their privacy policies
 
 ## Children's Privacy
 
-Our app is not intended for children under 13. We do not knowingly collect personal information from children under 13.
+Our Services are not intended for children under 13. We do not knowingly collect personal information from children under 13.
 
 ## Changes to This Privacy Policy
 
@@ -73,7 +89,7 @@ If you have questions about this Privacy Policy, please contact us at:
 
 ## International Users
 
-If you are accessing our app from outside the United States, please be aware that your information may be transferred to, stored, and processed in the United States.
+If you are accessing our Services from outside the United States, please be aware that your information may be transferred to, stored, and processed in the United States.
 
 ## California Privacy Rights
 
@@ -84,4 +100,4 @@ California residents have additional rights under the California Consumer Privac
 
 ---
 
-This Privacy Policy is effective as of September 3, 2025 and applies to all users of the Grid Mix AI mobile application.
+This Privacy Policy is effective as of February 4, 2026 and applies to all users of Grid Mix AI Services, including the iOS mobile application and MCP Server.
